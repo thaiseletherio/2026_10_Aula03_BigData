@@ -1,13 +1,9 @@
-salario_atual = float (input('Qual seu salário atual? '))
-aumento = salario_atual * 0.15
-novo_sal = salario_atual + aumento
-
-print (f'Salário anterior: {salario_atual} \nAumento: {aumento}\nNovo Salário Feliz: {novo_sal}')
-
-#correção do professor
-
 salario_atual = float(input('Informe o salário: '))
-aumento = salario_atual * 0.15 
+percentual = float (input ('Informe o digito para percentual: '))
+
+percentual = percentual / 100
+
+aumento = salario_atual * percentual
 novo_salario = salario_atual + aumento 
 
 print (f'\nSalario anterior: {salario_atual}')
